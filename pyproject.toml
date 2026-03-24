@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "file-wizard"
+version = "0.1.0"
+description = "A command-line tool that converts files between formats (CSV, JSON, YAML, XML, Markdown, TOML)"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "click>=8.0.0",
+    "PyYAML>=6.0",
+    "toml>=0.10.2",
+    "xmltodict>=0.13.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+]
+
+[project.scripts]
+wizard = "wizard.cli:cli"
