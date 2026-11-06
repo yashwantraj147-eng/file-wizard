@@ -9,7 +9,7 @@ description = "A command-line tool that converts files between formats (CSV, JSO
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
-    "click>=8.0.0",
+    "click>=8.5.0",
     "PyYAML>=6.0",
     "toml>=0.10.2",
     "xmltodict>=0.13.0",
