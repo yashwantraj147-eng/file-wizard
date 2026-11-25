@@ -1,4 +1,3 @@
-import pytest
 import wizard
 from wizard.readers import BaseReader
 from wizard.writers import BaseWriter
